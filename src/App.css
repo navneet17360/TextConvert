@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+.form-check-input:checked {
+  background-color:blue;
+  border-color:blue;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +41,5 @@
     transform: rotate(360deg);
   }
 }
+
+
